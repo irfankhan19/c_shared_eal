@@ -19,8 +19,9 @@ int main(void) {
 	char r3 = random();
 	char r4 = random();
 	char r5 = random();
+	char r6 = random();
 
-	printf("These are random numbers : %i %i %i %i", r1, r2, r3, r4,r5);
+	printf("These are random numbers : %i %i %i %i", r1, r2, r3, r4,r5,r6);
 
 	// randomize();
 	/* Simple "srand()" seed: just use "time()" */
