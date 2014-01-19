@@ -18,8 +18,9 @@ int main(void) {
 	char r2 = random();
 	char r3 = random();
 	char r4 = random();
+	char r5 = random();
 
-	printf("These are random numbers : %i %i %i %i", r1, r2, r3, r4);
+	printf("These are random numbers : %i %i %i %i", r1, r2, r3, r4,r5);
 
 	// randomize();
 	/* Simple "srand()" seed: just use "time()" */
@@ -30,8 +31,9 @@ int main(void) {
 	char r22 = random();
 	char r32 = random();
 	char r42 = random();
+	char r52 = random();
 
-	printf("\nThese are random numbers : %i %i %i %i", r12, r22, r32, r42);
+	printf("\nThese are random numbers : %i %i %i %i", r12, r22, r32, r42,r52);
 
 	return EXIT_SUCCESS;
 }
