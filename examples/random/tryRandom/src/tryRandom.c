@@ -18,6 +18,7 @@ int main(void) {
 	char r2 = random();
 	char r3 = random();
 	char r4 = random();
+	char r5 = random();
 
 	printf("These are random numbers : %i %i %i %i", r1, r2, r3, r4);
 
